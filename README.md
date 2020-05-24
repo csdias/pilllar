@@ -8,3 +8,5 @@ docker run -it --rm --name pillarsample -p 8000:80 pillarapp
 
 Windows
 docker run -it --rm --name pillarsample -p 8000:80 pillarapp
+
+Open browser -> localhost:8000
