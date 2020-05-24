@@ -1,16 +1,19 @@
+# https://hub.docker.com/_/microsoft-dotnet-core
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
-WORKDIR /source
+WORKDIR /Source
 
 # copy csproj and restore as distinct layers
-COPY *.csproj .
+COPY *.sln .
+COPY Pilllar/*.csproj ./Pilllar/
 RUN dotnet restore
 
-# copy and publish app and libraries
-COPY . .
+# copy everything else and build app
+COPY Pilllar/. ./Pilllar/
+WORKDIR /Source/Pilllar
 RUN dotnet publish -c release -o /app --no-restore
 
 # final stage/image
-FROM mcr.microsoft.com/dotnet/core/runtime:3.1
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1
 WORKDIR /app
-COPY --from=build /app .
-ENTRYPOINT ["./dotnetapp"]
+COPY --from=build /app ./
+ENTRYPOINT ["dotnet", "Pilllar.Admin.WebApi.dll"]
