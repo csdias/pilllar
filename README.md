@@ -1,12 +1,12 @@
 # Pilllar System
 
-Docker
+Docker <br>
 docker build -t pilllar .
 
-Mac
+Mac <br>
 docker run -it --rm --name pilllar -p 8000:80 pilllar:latest
 
-Windows
+Windows <br>
 docker run -it --rm --name pilllar -p 8000:80 pilllar:latest
 
 Open browser -> localhost:8000
