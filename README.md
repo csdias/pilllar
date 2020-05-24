@@ -1,12 +1,12 @@
 # Pilllar System
 
 Docker
-docker build -t pillarapp .
+docker build -t pilllar .
 
 Mac
-docker run -it --rm --name pillarsample -p 8000:80 pillarapp
+docker run -it --rm --name pilllar -p 8000:80 pilllar:latest
 
 Windows
-docker run -it --rm --name pillarsample -p 8000:80 pillarapp
+docker run -it --rm --name pilllar -p 8000:80 pilllar:latest
 
 Open browser -> localhost:8000
