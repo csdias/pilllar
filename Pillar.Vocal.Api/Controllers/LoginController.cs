@@ -60,12 +60,12 @@ namespace Pilllar.Admin.WebApi.Controllers
 
         [HttpGet]
         [Route("employee")]
-        [Authorize(Roles = "employee,manager")]
+        [Authorize(Roles = "Manager, Employee")]
         public string Employee() => "Funcionário";
 
         [HttpGet]
         [Route("manager")]
-        [Authorize(Roles = "manager")]
+        [Authorize(Roles = "Manager")]
         public string Manager() => "Gerente";
 
     }
