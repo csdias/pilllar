@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pillar.Vocal.Api", "Pillar.Vocal.Api\Pillar.Vocal.Api.csproj", "{F2CDD883-FACB-411A-85AF-100825D39210}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - User Interface", "0 - User Interface", "{8C5A0036-3396-4846-8D74-01FD593B7419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{6D206C0B-634B-4756-BCF3-6B96D5633AF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{226AE24D-0649-4592-8F81-2E3F75FF46D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilllar.Vocal.Domain", "Pilllar.Vocal.Domain\Pilllar.Vocal.Domain.csproj", "{40E23B1D-2EA5-4488-9CB3-2F37482DDC20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Services", "3 - Services", "{45B29F8A-094D-4826-89A1-703AFD331A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilllar.Vocal.Services", "Pilllar.Vocal.Services\Pilllar.Vocal.Services.csproj", "{154663CC-53A0-4A52-A648-3ED2218E3EB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{0E627EE7-BBE0-4341-A788-632C80237A33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{316D75D3-A3AE-48DD-ABFE-9F8FD664999F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{9AF9EAF5-D16C-4470-9D01-E07EE8CE8021}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.3 - Ioc", "4.3 - Ioc", "{97D832FA-94BB-4DE4-8B2B-F296309008DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{F642C876-374A-4D8B-AD6E-201488F7B520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilllar.Vocal.Data", "Pilllar.Vocal.Data\Pilllar.Vocal.Data.csproj", "{CD74FF01-0CF3-454C-AA75-4D933653A9FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pilllar.Vocal.Ioc", "Pilllar.Vocal.Ioc\Pilllar.Vocal.Ioc.csproj", "{F6858DA7-D0A4-4750-B5C1-D5DFD113E6C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2CDD883-FACB-411A-85AF-100825D39210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CDD883-FACB-411A-85AF-100825D39210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CDD883-FACB-411A-85AF-100825D39210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CDD883-FACB-411A-85AF-100825D39210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40E23B1D-2EA5-4488-9CB3-2F37482DDC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40E23B1D-2EA5-4488-9CB3-2F37482DDC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40E23B1D-2EA5-4488-9CB3-2F37482DDC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40E23B1D-2EA5-4488-9CB3-2F37482DDC20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{154663CC-53A0-4A52-A648-3ED2218E3EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{154663CC-53A0-4A52-A648-3ED2218E3EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{154663CC-53A0-4A52-A648-3ED2218E3EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{154663CC-53A0-4A52-A648-3ED2218E3EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD74FF01-0CF3-454C-AA75-4D933653A9FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD74FF01-0CF3-454C-AA75-4D933653A9FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD74FF01-0CF3-454C-AA75-4D933653A9FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD74FF01-0CF3-454C-AA75-4D933653A9FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6858DA7-D0A4-4750-B5C1-D5DFD113E6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6858DA7-D0A4-4750-B5C1-D5DFD113E6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6858DA7-D0A4-4750-B5C1-D5DFD113E6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6858DA7-D0A4-4750-B5C1-D5DFD113E6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2CDD883-FACB-411A-85AF-100825D39210} = {6D206C0B-634B-4756-BCF3-6B96D5633AF1}
+		{40E23B1D-2EA5-4488-9CB3-2F37482DDC20} = {226AE24D-0649-4592-8F81-2E3F75FF46D0}
+		{154663CC-53A0-4A52-A648-3ED2218E3EB5} = {45B29F8A-094D-4826-89A1-703AFD331A70}
+		{316D75D3-A3AE-48DD-ABFE-9F8FD664999F} = {0E627EE7-BBE0-4341-A788-632C80237A33}
+		{9AF9EAF5-D16C-4470-9D01-E07EE8CE8021} = {0E627EE7-BBE0-4341-A788-632C80237A33}
+		{97D832FA-94BB-4DE4-8B2B-F296309008DA} = {0E627EE7-BBE0-4341-A788-632C80237A33}
+		{CD74FF01-0CF3-454C-AA75-4D933653A9FE} = {316D75D3-A3AE-48DD-ABFE-9F8FD664999F}
+		{F6858DA7-D0A4-4750-B5C1-D5DFD113E6C0} = {97D832FA-94BB-4DE4-8B2B-F296309008DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9697CE28-FF21-4897-9275-223BA100B11F}
+	EndGlobalSection
+EndGlobal
