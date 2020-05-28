@@ -12,6 +12,7 @@ using Pilllar.Admin.WebApi.ResourceParameters;
 using Pilllar.Admin.WebApi.Helpers;
 using System.Text.Json;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Pilllar.Admin.WebApi.Controllers
 {
@@ -52,6 +53,8 @@ namespace Pilllar.Admin.WebApi.Controllers
             return _repository.GetById(usuarioId);
         }
 
+        [Authorize(Roles = "Manager, Employee")]
+        [Authorize(Roles = "Manager")]
         [HttpGet(Name = nameof(GetUsers))]
         public ActionResult<IEnumerable<User>> GetUsers([FromQuery]UserResourceParameters userResourceParameters)
         {
