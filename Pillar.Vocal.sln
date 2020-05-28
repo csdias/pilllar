@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pillar.Vocal.Api", "Pillar.Vocal.Api\Pillar.Vocal.Api.csproj", "{F2CDD883-FACB-411A-85AF-100825D39210}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - User Interface", "0 - User Interface", "{8C5A0036-3396-4846-8D74-01FD593B7419}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{6D206C0B-634B-4756-BCF3-6B96D5633AF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2CDD883-FACB-411A-85AF-100825D39210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2CDD883-FACB-411A-85AF-100825D39210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2CDD883-FACB-411A-85AF-100825D39210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2CDD883-FACB-411A-85AF-100825D39210}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F2CDD883-FACB-411A-85AF-100825D39210} = {6D206C0B-634B-4756-BCF3-6B96D5633AF1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9697CE28-FF21-4897-9275-223BA100B11F}
+	EndGlobalSection
+EndGlobal
