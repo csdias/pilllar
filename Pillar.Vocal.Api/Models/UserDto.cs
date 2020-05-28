@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Pilllar.Admin.Models
+namespace Pilllar.Vocal.Models
 {
     public class UserDto
     {

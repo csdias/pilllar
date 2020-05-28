@@ -1,4 +1,4 @@
-﻿namespace Pilllar.Admin.WebApi.Helpers
+﻿namespace Pilllar.Vocal.Api.Helpers
 {
     public enum ResourceUriType
     {

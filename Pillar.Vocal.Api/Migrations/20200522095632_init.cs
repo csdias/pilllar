@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Pilllar.Admin.WebApi.Migrations
+namespace Pilllar.Vocal.Api.Migrations
 {
     public partial class init : Migration
     {

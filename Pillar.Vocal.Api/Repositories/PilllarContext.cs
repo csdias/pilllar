@@ -1,10 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
-using Pilllar.Admin.Models;
+using Pilllar.Vocal.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Pilllar.Admin.Repositories
+namespace Pilllar.Vocal.Repositories
 {
     public partial class PilllarContext : DbContext
     {

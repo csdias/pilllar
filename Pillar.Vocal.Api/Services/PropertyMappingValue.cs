@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Pilllar.Admin.Services
+namespace Pilllar.Vocal.Services
 {
     public class PropertyMappingValue
     {

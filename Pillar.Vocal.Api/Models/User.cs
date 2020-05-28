@@ -2,7 +2,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Pilllar.Admin.Models
+namespace Pilllar.Vocal.Models
 {
     public class User
     {

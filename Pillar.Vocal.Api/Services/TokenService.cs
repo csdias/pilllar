@@ -2,10 +2,10 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using Pilllar.Admin.Models;
+using Pilllar.Vocal.Models;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Pilllar.Admin.Services
+namespace Pilllar.Vocal.Services
 {
     public static class TokenService
     {

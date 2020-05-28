@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Pilllar.Admin.Models;
+using Pilllar.Vocal.Models;
 using System;
 using Microsoft.AspNetCore.Authorization;
 using System.Linq;
-using Pilllar.Admin.Services;
-using Pilllar.Admin.Repositories;
+using Pilllar.Vocal.Services;
+using Pilllar.Vocal.Repositories;
 using Microsoft.Extensions.Logging;
 
-namespace Pilllar.Admin.WebApi.Controllers
+namespace Pilllar.Vocal.Api.Controllers
 {
     [Route("v1/account")]
     public class LoginController : Controller

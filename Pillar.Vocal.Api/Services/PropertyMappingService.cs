@@ -1,9 +1,9 @@
-﻿using Pilllar.Admin.Models;
+﻿using Pilllar.Vocal.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Pilllar.Admin.Services
+namespace Pilllar.Vocal.Services
 {
     public class PropertyMappingService : IPropertyMappingService
     {

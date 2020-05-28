@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using Pilllar.Admin.Models;
-using Pilllar.Admin.Services;
-using Pilllar.Admin.WebApi.Helpers;
-using Pilllar.Admin.WebApi.ResourceParameters;
+using Pilllar.Vocal.Models;
+using Pilllar.Vocal.Services;
+using Pilllar.Vocal.Api.Helpers;
+using Pilllar.Vocal.Api.ResourceParameters;
 using Microsoft.AspNetCore.Routing;
 
-namespace Pilllar.Admin.Repositories
+namespace Pilllar.Vocal.Repositories
 {
     public class UserRepository
     {

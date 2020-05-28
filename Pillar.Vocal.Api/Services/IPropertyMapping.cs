@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Pilllar.Admin.Services
+namespace Pilllar.Vocal.Services
 {
     public interface IPropertyMapping
     {

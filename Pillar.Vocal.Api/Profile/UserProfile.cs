@@ -1,6 +1,6 @@
-﻿using Pilllar.Admin.Models;
+﻿using Pilllar.Vocal.Models;
 
-namespace Pilllar.Admin.WebApi.Profile
+namespace Pilllar.Vocal.Api.Profile
 {
     public class UserProfile : AutoMapper.Profile
     {

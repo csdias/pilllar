@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Pilllar.Admin.Models;
+using Pilllar.Vocal.Models;
 using System;
 
-namespace Pilllar.Admin.Repositories
+namespace Pilllar.Vocal.Repositories
 {
     public static class ModelBuilderExtensions
     {

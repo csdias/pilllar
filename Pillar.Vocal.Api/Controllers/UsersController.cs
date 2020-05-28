@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Pilllar.Admin.Models;
-using Pilllar.Admin.Repositories;
-using Pilllar.Admin.Services;
-using Pilllar.Admin.WebApi.ResourceParameters;
-using Pilllar.Admin.WebApi.Helpers;
+using Pilllar.Vocal.Models;
+using Pilllar.Vocal.Repositories;
+using Pilllar.Vocal.Services;
+using Pilllar.Vocal.Api.ResourceParameters;
+using Pilllar.Vocal.Api.Helpers;
 using System.Text.Json;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Pilllar.Admin.WebApi.Controllers
+namespace Pilllar.Vocal.Api.Controllers
 {
     [Route("[controller]")]
     [ApiController]

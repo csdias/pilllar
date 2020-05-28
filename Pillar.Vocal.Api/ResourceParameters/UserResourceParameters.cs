@@ -1,4 +1,4 @@
-﻿namespace Pilllar.Admin.WebApi.ResourceParameters
+﻿namespace Pilllar.Vocal.Api.ResourceParameters
 {
     public class UserResourceParameters
     {

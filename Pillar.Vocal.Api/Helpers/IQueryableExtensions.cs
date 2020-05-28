@@ -1,10 +1,10 @@
-﻿using Pilllar.Admin.Services;
+﻿using Pilllar.Vocal.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic.Core;
 
-namespace Pilllar.Admin.WebApi.Helpers
+namespace Pilllar.Vocal.Api.Helpers
 {
     public static class IQueryableExtensions
     {

@@ -1,5 +1,5 @@
-using Pilllar.Admin.Repositories;
-using Pilllar.Admin.Services;
+using Pilllar.Vocal.Repositories;
+using Pilllar.Vocal.Services;
 using AutoMapper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;

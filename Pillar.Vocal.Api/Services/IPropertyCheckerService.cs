@@ -1,4 +1,4 @@
-﻿namespace Pilllar.Admin.Services
+﻿namespace Pilllar.Vocal.Services
 {
     public interface IPropertyCheckerService
     {
