@@ -9,7 +9,7 @@ using Pilllar.Vocal.Api.Helpers;
 using Pilllar.Vocal.Api.ResourceParameters;
 using Microsoft.AspNetCore.Routing;
 
-namespace Pilllar.Vocal.Repositories
+namespace Pilllar.Vocal.Data.Repositories
 {
     public class UserRepository: IUserRepository
     {

@@ -1,0 +1,5 @@
+E:\Projetos\CSharp\Pilllar\Pilllar.Vocal.Ioc\bin\Debug\netcoreapp3.1\Pilllar.Vocal.Ioc.deps.json
+E:\Projetos\CSharp\Pilllar\Pilllar.Vocal.Ioc\bin\Debug\netcoreapp3.1\Pilllar.Vocal.Ioc.dll
+E:\Projetos\CSharp\Pilllar\Pilllar.Vocal.Ioc\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Ioc.AssemblyInfoInputs.cache
+E:\Projetos\CSharp\Pilllar\Pilllar.Vocal.Ioc\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Ioc.AssemblyInfo.cs
+E:\Projetos\CSharp\Pilllar\Pilllar.Vocal.Ioc\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Ioc.csprojAssemblyReference.cache

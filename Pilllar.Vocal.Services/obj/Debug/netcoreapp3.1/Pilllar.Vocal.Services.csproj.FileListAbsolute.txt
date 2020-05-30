@@ -1,0 +1,9 @@
+E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Services\bin\Debug\netcoreapp3.1\Pilllar.Vocal.Services.deps.json
+E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Services\bin\Debug\netcoreapp3.1\Pilllar.Vocal.Services.dll
+E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Services\bin\Debug\netcoreapp3.1\Pilllar.Vocal.Services.pdb
+E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Services\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Services.csprojAssemblyReference.cache
+E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Services\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Services.AssemblyInfoInputs.cache
+E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Services\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Services.AssemblyInfo.cs
+E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Services\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Services.csproj.CoreCompileInputs.cache
+E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Services\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Services.dll
+E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Services\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Services.pdb
