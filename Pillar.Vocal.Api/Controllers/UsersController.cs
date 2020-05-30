@@ -53,8 +53,8 @@ namespace Pilllar.Vocal.Api.Controllers
             return _repository.GetById(usuarioId);
         }
 
-        [Authorize(Roles = "Manager, Employee")]
-        [Authorize(Roles = "Manager")]
+        //[Authorize(Roles = "Manager, Employee")]
+        //[Authorize(Roles = "Manager")]
         [HttpGet(Name = nameof(GetUsers))]
         public ActionResult<IEnumerable<User>> GetUsers([FromQuery]UserResourceParameters userResourceParameters)
         {
