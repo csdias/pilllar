@@ -41,11 +41,8 @@ namespace Pilllar.Vocal.Api.Controllers
 
             var token = TokenService.GenerateToken(user);
             user.Password = "";
-            return new
-            {
-                user,
-                token
-            };
+            //Todo: Change for a especialized dto
+            return Ok(new { user, token });
         }
 
         [HttpGet]

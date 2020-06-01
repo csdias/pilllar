@@ -16,7 +16,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Pilllar.Vocal.Api.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/users")]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -47,10 +47,15 @@ namespace Pilllar.Vocal.Api.Controllers
               throw new ArgumentNullException(nameof(propertyCheckerService));
         }
 
-        [HttpGet("{id}")]
-        public User Get(int usuarioId)
+        [HttpGet("{userId:guid}", Name = "GetUser")]
+        public IActionResult Get(Guid userId)
         {
-            return _repository.GetById(usuarioId);
+            var user = _repository.Get(userId);
+
+            if (user == null)
+                return NotFound();
+
+            return Ok(_mapper.Map<UserDto>(user));
         }
 
         //[Authorize(Roles = "Manager, Employee")]
@@ -96,10 +101,29 @@ namespace Pilllar.Vocal.Api.Controllers
         }
 
         [HttpPost]
-        public void Post(User user)
+        public ActionResult<UserDto> Post([FromBody] UserDtoForCreation userDtoForCreation)
         {
+            var encryptedPassword = TokenService.EncryptPassword(userDtoForCreation.Password);
+
+            //Todo Verify if the user email already exists
+            var user = _repository.Get(userDtoForCreation.Email);
+
+            if (user != null)
+            {
+                //return Conflict($"{userDto.Email} is already in use");
+            }
+            else
+            {
+                user = _mapper.Map<User>(userDtoForCreation);
+                user.Password = encryptedPassword;
+            }
+
             _repository.Save(user);
             _context.SaveChanges();
+
+            var userToReturn = _mapper.Map<UserDto>(user);
+
+            return CreatedAtRoute("GetUser", new { userId = userToReturn.Id }, userToReturn);
         }
 
         [HttpPut]
@@ -107,7 +131,12 @@ namespace Pilllar.Vocal.Api.Controllers
         {
             _repository.Save(user);
             _context.SaveChanges();
+
+            //Todo: return 200 OK
+            //return 
         }
+
+        //Todo: Create the Delete with return 204 No Content
 
         private string CreateUsersResourceUri(
            UserResourceParameters userResourceParameters,

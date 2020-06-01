@@ -5446,9 +5446,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\CSharp\\Pilllar\\Pillar.Vocal\\Pillar.Vocal.Api\\Pillar.Vocal.Api.csproj",
-      "projectName": "Pillar.Vocal.Api",
-      "projectPath": "E:\\Projetos\\CSharp\\Pilllar\\Pillar.Vocal\\Pillar.Vocal.Api\\Pillar.Vocal.Api.csproj",
+      "projectUniqueName": "E:\\Projetos\\CSharp\\Pilllar\\Pillar.Vocal\\Pillar.Vocal.Api\\Pilllar.Vocal.Api.csproj",
+      "projectName": "Pilllar.Vocal.Api",
+      "projectPath": "E:\\Projetos\\CSharp\\Pilllar\\Pillar.Vocal\\Pillar.Vocal.Api\\Pilllar.Vocal.Api.csproj",
       "packagesPath": "C:\\Users\\csdia\\.nuget\\packages\\",
       "outputPath": "E:\\Projetos\\CSharp\\Pilllar\\Pillar.Vocal\\Pillar.Vocal.Api\\obj\\",
       "projectStyle": "PackageReference",

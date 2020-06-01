@@ -9,6 +9,10 @@ namespace Pilllar.Vocal.Api.Profile
             CreateMap<User, UserDto>();
 
             CreateMap<UserDto, User>();
+
+            CreateMap<User, UserDtoForCreation>();
+
+            CreateMap<UserDtoForCreation, User>();
         }
     }
 }
