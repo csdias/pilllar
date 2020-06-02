@@ -1,4 +1,0 @@
-E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Domain\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Domain.csprojAssemblyReference.cache
-E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Domain\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Domain.AssemblyInfoInputs.cache
-E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Domain\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Domain.AssemblyInfo.cs
-E:\Projetos\CSharp\Pilllar\Pillar.Vocal\Pilllar.Vocal.Domain\obj\Debug\netcoreapp3.1\Pilllar.Vocal.Domain.csproj.CoreCompileInputs.cache
