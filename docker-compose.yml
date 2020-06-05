@@ -1,0 +1,78 @@
+version: '3.7'
+
+services:
+  
+  vocal-postgres:
+    image: postgres
+    container_name: vocal-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: "abcd1234"
+    ports:
+      - "15432:5432"
+    networks:
+      - vocal-net        
+    restart: always
+    privileged: true
+    tty: true
+
+  vocal-pgadmin4:
+    image: dpage/pgadmin4
+    container_name: vocal-pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "test@test.com"
+      PGADMIN_DEFAULT_PASSWORD: "123"
+    ports:
+      - "16543:80"
+    depends_on:
+      - vocal-postgres
+    networks:
+      - vocal-net    
+    links:
+      - vocal-postgres:db      
+    restart: always
+    privileged: true
+    tty: true
+
+  vocal-migrations:
+    image: vocal-migrations
+    container_name: vocal-migrations
+    build:
+      context: .
+      dockerfile: Dockerfile.migrations
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DATABASE_CONNECTION_STRING: "Host=db;Port=5432;Pooling=true;Database=users;User Id=postgres;Password=abcd1234;"
+    depends_on:
+      - vocal-postgres      
+    networks:
+      - vocal-net     
+    links:
+      - vocal-postgres:db
+    privileged: true
+    tty: true
+
+  vocal-api:
+    image: vocal-api
+    container_name: vocal-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DATABASE_CONNECTION_STRING: "Host=db;Port=5432;Pooling=true;Database=PilllarDb;User Id=postgres;Password=abcd1234;"
+    ports:
+      - "5000:80"
+    depends_on:
+      - vocal-postgres      
+    networks:
+      - vocal-net     
+    links:
+      - vocal-postgres:db         
+    restart: always
+    privileged: true
+    tty: true
+
+networks:
+  vocal-net:
+    external: true

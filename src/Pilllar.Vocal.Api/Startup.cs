@@ -30,9 +30,13 @@ namespace Pilllar
             services.AddCors();
             services.AddControllers();
 
-            services.AddDbContext<PilllarContext>(options =>
-                    options.UseNpgsql(Configuration.GetConnectionString("PilllarContext")));
+            System.Console.Write(Configuration["DATABASE_CONNECTION_STRING"]);
 
+            services.AddDbContext<PilllarContext>(options =>
+                    options.UseNpgsql(Configuration["DATABASE_CONNECTION_STRING"]));
+                    // options.UseNpgsql(Configuration.GetConnectionString("PilllarContext")));
+
+                    
             var key = Encoding.ASCII.GetBytes(Settings.Secret);
             services.AddAuthentication(x =>
             {
