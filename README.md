@@ -8,3 +8,7 @@ Open browser -> localhost:8000
 
 Accessing on Windows through cmd<br>
 docker exec -t -i Pilllar.Admin.WebApi cmd
+
+or 
+
+docker-compose up -d
