@@ -20,4 +20,4 @@ getting the ip´s
 
 
 <p>
-dotnet ef migrations add init -s ..\InterfaceAdapters
+dotnet ef migrations add init -s ..\App.Ui
