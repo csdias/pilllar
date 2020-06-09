@@ -17,3 +17,7 @@ docker-compose up -d
 getting the ip´s
 <p>
 <b>docker inspect -f '{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)</b>
+
+
+<p>
+dotnet ef migrations add init -s ..\InterfaceAdapters
