@@ -21,3 +21,6 @@ getting the ip´s
 
 <p>
 dotnet ef migrations add init -s ..\App.Ui
+
+<p>
+docker volume create --name=pgdata
